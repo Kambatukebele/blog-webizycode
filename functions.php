@@ -10,7 +10,22 @@
        add_theme_support('post-thumbnails');
 
       //  add_image_size('post_preview',600,300,true);
+
+      //Register Menus
+      register_nav_menus(
+        array(
+          'main-menu' => 'Header Menu',
+          'footer-menu' => 'Footer Menu',
+        )
+      );
+
     });
     // END Including Tailwind style css
 
-?>
+  /**
+   * Walker Class
+   */
+  class header_menu_walker
+  {
+
+  }

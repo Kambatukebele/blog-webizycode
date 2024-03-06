@@ -40,25 +40,25 @@
                 <div class="">
                     <p class="text-base font-normal font-Nunito text-gray-500 text-center my-2">Legal Notice</p>
                     <p class=" block text-base font-normal font-Nunito text-gray-500 text-center my-2">
-                        <a href="{{ route('privacy-policy') }}" class="block">
+                        <a href="https://webizycode.com/privacy-policy" class="block">
                             Privacy Policy
                         </a>
                     </p>
                     <p class="text-base font-normal font-Nunito text-gray-500 text-center my-2">
-                        <a href="{{ route('cookies-policies') }}" class="block">
+                        <a href="https://webizycode.com/cookies-policies" class="block">
                             Cookies Policies
                         </a>
                     </p>
                     <p class="text-base font-normal font-Nunito text-gray-500 text-center my-2">
-                        <a href="{{ route('services') }}" class="block">
+                        <a href="https://webizycode.com/services" class="block">
                             Services
                         </a>
                     </p>
                     <p class="text-base font-normal font-Nunito text-gray-500 text-center my-2">
-                        <a href="{{ route('blog') }}" class="block">Blog</a>
+                        <a href="https://webizycode.com/blog/" class="block">Blog</a>
                     </p>
                     <p class="text-base font-normal font-Nunito text-gray-500 text-center my-2">
-                        <a href="{{ route('youtube.index') }}" class="block">Youtube</a>
+                        <a href="https://webizycode.com/youtube/show" class="block">Youtube</a>
                     </p>
                 </div>
             </div>

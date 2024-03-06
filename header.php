@@ -21,15 +21,16 @@
 
 <body <?php body_class();?>>
     <?php wp_body_open(); ?>
+    <!-- Navigation on Small Mobile -->
+    <?php get_template_part('template-parts/nav-small-screen') ?>
+    <!-- END Navigation on Small Mobile -->
     <header style="background-image: url(<?= get_template_directory_uri() . '/assets/images/bg-image.png'?>);"
         class="w-full h-fit">
         <div class="w-[90%] mx-auto sm:max-w-[600px] md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1220px]">
             <!-- Navigation Big Screen and logo -->
             <?php get_template_part('template-parts/nav-big-screen') ?>
             <!-- end Navigation Big Screen and logo -->
-            <!-- Navigation on Small Mobile -->
-            <?php get_template_part('template-parts/nav-small-screen') ?>
-            <!-- END Navigation on Small Mobile -->
+
         </div>
         <!-- Header Section -->
         <?php get_template_part('template-parts/header-section') ?>
