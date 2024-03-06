@@ -27,7 +27,7 @@
         <li class="text-center mb-2 font-semibold"><a class="text-black text-xs uppercase  leading-4 my-5 "
                 href="https://webizycode.com/services">Services</a></li>
         <li class="text-center mb-2 font-semibold"><a class="text-black text-xs uppercase  leading-4 my-5 "
-                href="https://webizycode.com/blog">Blog</a></li>
+                href="https://blog.webizycode.com/">Blog</a></li>
         <li class="text-center mb-2 font-semibold"><a class="text-black text-xs uppercase  leading-4 my-5 "
                 href="https://webizycode.com/youtube/show">Youtube</a></li>
         <li class="text-center mb-2 font-semibold"><a class="text-black text-xs uppercase  leading-4 my-5 "

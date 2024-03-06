@@ -27,7 +27,7 @@
             </div>
         </li>
         <li class="lg:text-white lg:text-xs uppercase lg:font-semibold leading-4  hover:text-black transition-all">
-            <a class="" href="https://webizycode.com/blog">Blog</a>
+            <a class="" href="https://blog.webizycode.com/">Blog</a>
         </li>
         <li class="lg:text-white lg:text-xs uppercase lg:font-semibold leading-4  hover:text-black transition-all">
             <a class="" href="https://webizycode.com/youtube/show">Youtube</a>
