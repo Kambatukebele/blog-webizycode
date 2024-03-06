@@ -3,7 +3,7 @@
         <!--Logo -->
         <div class="block">
             <a href="{{ route('home') }}" class="">
-                <img class="w-[30px]" src="{{ url('assets/images/originale-logo-webizy-1.png') }}"
+                <img class="w-[30px]" src="<?= get_template_directory_uri() . '/assets/images/logo-webizycode.png'?>"
                     alt="webizy-code-logo">
             </a>
         </div>
@@ -18,7 +18,7 @@
     </div>
 
     <!-- Menu -->
-    <ul class="hidden absolute w-full bg-white border z-50 py-6 " id="small-device-card-menu">
+    <ul class="hidden font-montserrat absolute w-full bg-white border z-50 py-6 " id="small-device-card-menu">
         <li class="text-center mb-2 font-semibold">
             <a class="text-black text-xs uppercase  leading-4 my-5 " href="{{ route('home') }}">
                 Home

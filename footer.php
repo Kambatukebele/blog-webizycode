@@ -1,5 +1,5 @@
 <footer style="background-image: url(<?= get_template_directory_uri() . '/assets/images/footer-bg-images.png'?>);"
-    class="w-full h-fit bg-hero-footer bg- bg-cover bg-center bg-gray-900 py-10">
+    class="w-full h-fit bg-hero-footer font-montserrat bg- bg-cover bg-center bg-gray-900 py-10">
     <div
         class="w-[90%] mx-auto flex justify-between items-center flex-col md:max-w-[700px] lg:max-w-[900px] xl:max-w-[1220px]">
         <!--Upper -->
@@ -105,9 +105,9 @@
                 </div>
             </div>
             <!-- News Letters -->
-            <div class="min-w-[290px] my-5 lg:w-[200px] lg:my-0">
+            <!-- <div class="min-w-[290px] my-5 lg:w-[200px] lg:my-0">
                 <div class="mb-5">
-                    <h4 class="text-white font-ReadexPro text-2xl font-semibold text-center">Get the lastest
+                    <h4 class="text-white text-2xl font-semibold text-center">Get the lastest
                         Info
                     </h4>
                 </div>
@@ -119,7 +119,7 @@
                         class="block items-center px-4 py-2 bg-purple-800 border border-transparent rounded-md font-semibold text-xs text-white uppercase w-full sm:w-[300px] lg:w-[150px] xl:w-[200px] tracking-widest hover:bg-black  transition ease-in-out duration-150 my-5 text-center">Subscribe</button>
 
                 </form>
-            </div>
+            </div> -->
         </div>
         <!--Bottom -->
         <div class="mt-10 border-t w-full border-t-purple-700 h-20 flex justify-center items-center">
@@ -133,3 +133,7 @@
     </div>
 </footer>
 <script src="{{ url('/assets/js/index.js') }}"></script>
+<?php wp_footer(); ?>
+</body>
+
+</html>
